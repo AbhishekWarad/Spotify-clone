@@ -131,3 +131,40 @@ a{
     height: 2rem;
     width: fit-content;
 }
+
+.dark-badge{
+    border: none;
+    background-color: #000;
+    color: white;
+}
+
+.sticky-nav{
+    position: static;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.sticky-nav-icons img{
+    margin-left: 0.75rem;
+
+}
+
+.sticky-nav-options{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.nav-item{
+    margin: 0.5rem;
+}
+
+@media (max-width: 1000px){
+    .hide{
+        display: none;
+    }
+}
