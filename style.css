@@ -140,13 +140,14 @@ a{
 }
 
 .sticky-nav{
-    position: static;
+    position:sticky;
     top: 0;
     background-color: #121212;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
+    z-index: 1;
 }
 
 .sticky-nav-icons img{
@@ -196,4 +197,18 @@ a{
 .card-info{
     font-size: 0.85rem;
     opacity: 0.8;
+}
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    height: 50%;
+    width: 90%;
+    border-top: 1px solid white;
+    opacity: 0.2;
 }
