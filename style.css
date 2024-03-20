@@ -215,6 +215,9 @@ a{
 
 .music-player{
     display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
 }
 
 .album{
@@ -223,6 +226,31 @@ a{
 
 .player{
     width: 50%;
+    /* height:100%; */
+}
+
+.player-control-icon{
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: 0.7;
+    
+}
+
+.player-control-icon:hover{
+    opacity: 1;
+}
+
+.player-contols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.playback-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .controls{
