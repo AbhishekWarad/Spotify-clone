@@ -220,9 +220,46 @@ a{
     align-items: center;
 }
 
+/* ALBUM STARTS*/
+
 .album{
     width: 25%;
+    padding-left: 0.75rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
+
+.album-cover{
+    align-content: start;
+    margin-right: 0.5rem;
+   
+}
+.album-cover img{
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 5px;
+}
+
+.album-title{
+    padding-left: 10px;
+    width: 8rem;
+    align-items: center;
+}
+
+.album-title-name{
+    font-size: 0.85rem;
+}
+
+.album-title-artist{
+    font-size: 0.7rem;
+}
+
+.album-status{
+    align-items: center;
+}
+/* ALBUM ENDS */
+
 
 .player{
     width: 50%;
