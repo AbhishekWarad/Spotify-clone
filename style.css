@@ -252,6 +252,7 @@ a{
 }
 .album-title-name:hover{
     text-decoration: underline;
+    cursor: pointer;
 }
 .album-title-artist{
     font-size: 0.7rem;
@@ -260,6 +261,7 @@ a{
 .album-title-artist:hover{
     text-decoration: underline;
     opacity: 1;
+    cursor: pointer;
 }
 .album-status{
     align-items: center;
@@ -320,4 +322,43 @@ a{
 
 .controls{
     width: 25%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.controls i{
+    margin-right: 1rem;
+    opacity: 0.5;
+}
+
+.controls i:hover{
+    opacity: 1;
+}
+
+.controls input{
+    width: 100px;
+    margin-right: 1rem;
+    margin-left: -0.5rem;
+    opacity: 0.5;
+}
+
+.controls input:hover{
+    opacity: 1;
+}
+.controls .progress-bar::-webkit-slider-runnable-track{
+    width: 0.1rem;
+    height: 0.1rem; 
+}
+
+.controls .progress-bar::-webkit-slider-thumb{
+    height: 0.7rem;
+    width: 0.7rem;
+    margin-top: -4.6px;
+}
+
+@media (max-width:1000px){
+    .controls input{
+        display: none;
+    }
 }
