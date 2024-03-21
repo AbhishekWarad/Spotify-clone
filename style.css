@@ -250,16 +250,21 @@ a{
 .album-title-name{
     font-size: 0.85rem;
 }
-
+.album-title-name:hover{
+    text-decoration: underline;
+}
 .album-title-artist{
     font-size: 0.7rem;
+    opacity: 0.7;
 }
-
+.album-title-artist:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
 .album-status{
     align-items: center;
 }
 /* ALBUM ENDS */
-
 
 .player{
     width: 50%;
